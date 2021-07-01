@@ -1,14 +1,10 @@
-from typing import ValuesView
 import numpy as np
 import matplotlib.pyplot as plt
-from numpy.core.fromnumeric import shape
-from sklearn.base import OutlierMixin
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.decomposition import PCA, KernelPCA
 from sklearn.manifold import TSNE
 from sklearn.svm import OneClassSVM
 from sklearn.cluster import DBSCAN
-from sklearn.ensemble import IsolationForest
 
 data = np.load('feature_vector_v1.npy')
 
