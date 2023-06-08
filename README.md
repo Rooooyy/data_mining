@@ -1,6 +1,6 @@
 # data_mining
 
-Final Project of Data mining, 2021 spring
+Final Project of Graduate Course "Data Mining" in SCSE, BUAA, 2021.
 
 ### Dev Guide
 
