@@ -1,19 +1,9 @@
 # data_mining
 
+火车乘车数据异常样本挖掘
 Final Project of Graduate Course "Data Mining" in SCSE, BUAA, 2021.
 
-### Dev Guide
-
-**DO NOT DIRECTLY PUSH INTO THE MASTER BRANCH**  
-**DO NOT DIRECTLY PUSH INTO THE MASTER BRANCH**  
-**DO NOT DIRECTLY PUSH INTO THE MASTER BRANCH**  
-
-1. First create your own branch named by yourself, for example `dev/zhuhe`
-2. Make changes directly on your own branch
-3. After push your dev branch, merge on your local master first(Remember to `pull` before merge), handle conflicts carefully, and then push into the remote master.
-4. Plz write commit messages as regularly as possible, refer to [git commit principles](https://blog.csdn.net/github_39506988/article/details/90298780).
-
-### Data processing
+### 数据预处理
 
 处理后的数据包括22维，存储在feature_vector_v1.npy文件中，整体维度为（11076，22）
 
